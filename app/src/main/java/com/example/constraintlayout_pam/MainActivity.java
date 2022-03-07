@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
                     Toast.makeText(getApplicationContext(), "Login Sukses", Toast.LENGTH_SHORT).show();
 
-                    /// menghapus isi dari edittext
+                    /// Delete isi dari edittext
                     edemail.getText().clear();
                     edpassword.getText().clear();
                 }
