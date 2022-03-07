@@ -47,7 +47,29 @@ public class MainActivity extends AppCompatActivity {
 
                 // Membuat Kondisi validasi inputan User untuk Login
                 if(nama.equals("admin@mail.com") && password.equals("hello")){
+
+                    // Pembuatan Bundle
+
+                    Bundle b = new Bundle();
+
+                    // key parsing data domasukkan kedalam bundle
+                    b.putString("a", nama.trim());
+                    b.putString("b", password.trim());
+
+                    // membuat objek untuk pindah halaman
+                    Intent i = new Intent(getApplicationContext(), Register.class);
+
+                    // memasukkan bundle kedalam intent
+                    i.putExtras(b);
+
+                    // Berpindah ke halaman loin
+                    startActivity(i);
+
                     Toast.makeText(getApplicationContext(), "Login Sukses", Toast.LENGTH_SHORT).show();
+
+                    /// menghapus isi dari edittext
+                    edemail.getText().clear();
+                    edpassword.getText().clear();
                 }
                 else if (nama.equals("admin@mail.com")){
                     Toast.makeText(getApplicationContext(), "Password Salah", Toast.LENGTH_SHORT).show();
@@ -55,7 +77,10 @@ public class MainActivity extends AppCompatActivity {
                 else if(password.equals("hello")){
                     Toast.makeText(getApplicationContext(), "Email Salah", Toast.LENGTH_SHORT).show();
                 }
-                else {
+                else if(nama.equals("") || password.equals((""))){
+                    Toast.makeText(getApplicationContext(), "Email dan Password Tidak Boleh Kosong", Toast.LENGTH_SHORT).show();
+                }
+                else{
                     Toast.makeText(getApplicationContext(), "Email dan Password Salah", Toast.LENGTH_SHORT).show();
                 }
 
