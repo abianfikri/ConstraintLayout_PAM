@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                     // memasukkan bundle kedalam intent
                     i.putExtras(b);
 
-                    // Berpindah ke halaman loin
+                    // Berpindah ke halaman login
                     startActivity(i);
 
                     Toast.makeText(getApplicationContext(), "Login Sukses", Toast.LENGTH_SHORT).show();
