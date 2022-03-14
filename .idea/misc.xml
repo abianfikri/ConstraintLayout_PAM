@@ -3,11 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/ConstraintLayout_PAM/app/src/main/res/layout/activity_edit.xml" value="0.22735507246376813" />
         <entry key="..\:/Users/User/AndroidStudioProjects/ConstraintLayout_PAM/app/src/main/res/layout/activity_home.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ConstraintLayout_PAM/app/src/main/res/layout/activity_insert.xml" value="0.22735507246376813" />
         <entry key="..\:/Users/User/AndroidStudioProjects/ConstraintLayout_PAM/app/src/main/res/layout/activity_kedua.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/ConstraintLayout_PAM/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/ConstraintLayout_PAM/app/src/main/res/layout/activity_main_kedua.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ConstraintLayout_PAM/app/src/main/res/layout/activity_pendaftaran.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/ConstraintLayout_PAM/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ConstraintLayout_PAM/app/src/main/res/menu/menu.xml" value="0.176" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ConstraintLayout_PAM/app/src/main/res/menu/optionmenu.xml" value="0.1" />
       </map>
     </option>
   </component>

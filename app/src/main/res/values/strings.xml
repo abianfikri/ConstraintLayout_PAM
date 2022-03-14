@@ -1,9 +1,16 @@
 <resources>
     <string name="app_name">Constraint Layout_PAM</string>
     <string name="page1">LOGIN</string>
-    <string name="page2">Register</string>
+    <string name="page2">Login Behasil</string>
     <string name="page3">Home</string>
     <string name="tEmail">Email</string>
     <string name="tPassword">Password</string>
     <string name="bsigin">Sign-In</string>
+    <string name="mDaftar">Pendaftaran</string>
+    <string name="Idaftar">Daftar</string>
+    <string name="enama">Masukkan Nama</string>
+    <string name="eemail">Masukkan Email</string>
+    <string name="epass">Masukkan Password</string>
+    <string name="erepass">Masukkan Password Kembali</string>
+    <string name="ealamat">Masukkan Alamat</string>
 </resources>
